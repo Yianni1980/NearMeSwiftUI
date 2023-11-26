@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B24A8022B1209910086A65B /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B24A8012B1209910086A65B /* ActionButtons.swift */; };
 		0B5CC3112AD6A51F00EB2FAE /* NearMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC3102AD6A51F00EB2FAE /* NearMeApp.swift */; };
 		0B5CC3132AD6A51F00EB2FAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC3122AD6A51F00EB2FAE /* ContentView.swift */; };
 		0B5CC3152AD6A52100EB2FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CC3142AD6A52100EB2FAE /* Assets.xcassets */; };
 		0B5CC3182AD6A52100EB2FAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5CC3172AD6A52100EB2FAE /* Preview Assets.xcassets */; };
+		0B5CC3202AD8163200EB2FAE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC31F2AD8163200EB2FAE /* LocationManager.swift */; };
+		0B5CC3232AD967B100EB2FAE /* MKCoordinate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC3222AD967B100EB2FAE /* MKCoordinate+Extensions.swift */; };
+		0B68E2AE2B039FCC00E84313 /* SelectedPlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B68E2AD2B039FCC00E84313 /* SelectedPlaceDetailView.swift */; };
+		0B6F0D4F2AE939F3007378D4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F0D4E2AE939F3007378D4 /* PlaceView.swift */; };
+		0B6F0D512AEA6B59007378D4 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F0D502AEA6B59007378D4 /* PreviewData.swift */; };
+		0B6F0D532AEA87A2007378D4 /* SearchOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F0D522AEA87A2007378D4 /* SearchOptionsView.swift */; };
+		0B7BE3112AF5220F000913F9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BE3102AF5220F000913F9 /* SearchBarView.swift */; };
+		0B7BE3142AF527B2000913F9 /* PlaceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BE3132AF527B2000913F9 /* PlaceListView.swift */; };
+		0BD32B182ADE95C900890BBD /* MapUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD32B172ADE95C900890BBD /* MapUtilities.swift */; };
+		0BED0C4A2AFA6B640047CC06 /* MeasurementFormatter+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BED0C492AFA6B640047CC06 /* MeasurementFormatter+ Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B24A8012B1209910086A65B /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
 		0B5CC30D2AD6A51F00EB2FAE /* NearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5CC3102AD6A51F00EB2FAE /* NearMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeApp.swift; sourceTree = "<group>"; };
 		0B5CC3122AD6A51F00EB2FAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B5CC3142AD6A52100EB2FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5CC3172AD6A52100EB2FAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B5CC31F2AD8163200EB2FAE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0B5CC3222AD967B100EB2FAE /* MKCoordinate+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinate+Extensions.swift"; sourceTree = "<group>"; };
+		0B68E2AD2B039FCC00E84313 /* SelectedPlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPlaceDetailView.swift; sourceTree = "<group>"; };
+		0B6F0D4E2AE939F3007378D4 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		0B6F0D502AEA6B59007378D4 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		0B6F0D522AEA87A2007378D4 /* SearchOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOptionsView.swift; sourceTree = "<group>"; };
+		0B7BE3102AF5220F000913F9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		0B7BE3132AF527B2000913F9 /* PlaceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListView.swift; sourceTree = "<group>"; };
+		0BD32B172ADE95C900890BBD /* MapUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUtilities.swift; sourceTree = "<group>"; };
+		0BED0C492AFA6B640047CC06 /* MeasurementFormatter+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+ Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,10 @@
 		0B5CC30F2AD6A51F00EB2FAE /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
+				0B6F0D4D2AE939E7007378D4 /* Views */,
+				0BD32B162ADE95B200890BBD /* Utils */,
+				0B5CC3212AD9678D00EB2FAE /* Extensions */,
+				0B5CC31E2AD8160700EB2FAE /* Managers */,
 				0B5CC3102AD6A51F00EB2FAE /* NearMeApp.swift */,
 				0B5CC3122AD6A51F00EB2FAE /* ContentView.swift */,
 				0B5CC3142AD6A52100EB2FAE /* Assets.xcassets */,
@@ -62,9 +88,48 @@
 		0B5CC3162AD6A52100EB2FAE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0B6F0D502AEA6B59007378D4 /* PreviewData.swift */,
 				0B5CC3172AD6A52100EB2FAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B5CC31E2AD8160700EB2FAE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CC31F2AD8163200EB2FAE /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0B5CC3212AD9678D00EB2FAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B5CC3222AD967B100EB2FAE /* MKCoordinate+Extensions.swift */,
+				0BED0C492AFA6B640047CC06 /* MeasurementFormatter+ Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B6F0D4D2AE939E7007378D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B6F0D4E2AE939F3007378D4 /* PlaceView.swift */,
+				0B6F0D522AEA87A2007378D4 /* SearchOptionsView.swift */,
+				0B7BE3102AF5220F000913F9 /* SearchBarView.swift */,
+				0B68E2AD2B039FCC00E84313 /* SelectedPlaceDetailView.swift */,
+				0B7BE3132AF527B2000913F9 /* PlaceListView.swift */,
+				0B24A8012B1209910086A65B /* ActionButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BD32B162ADE95B200890BBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BD32B172ADE95C900890BBD /* MapUtilities.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +203,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5CC3132AD6A51F00EB2FAE /* ContentView.swift in Sources */,
+				0B7BE3112AF5220F000913F9 /* SearchBarView.swift in Sources */,
+				0B7BE3142AF527B2000913F9 /* PlaceListView.swift in Sources */,
 				0B5CC3112AD6A51F00EB2FAE /* NearMeApp.swift in Sources */,
+				0B68E2AE2B039FCC00E84313 /* SelectedPlaceDetailView.swift in Sources */,
+				0BED0C4A2AFA6B640047CC06 /* MeasurementFormatter+ Extension.swift in Sources */,
+				0B5CC3202AD8163200EB2FAE /* LocationManager.swift in Sources */,
+				0BD32B182ADE95C900890BBD /* MapUtilities.swift in Sources */,
+				0B6F0D512AEA6B59007378D4 /* PreviewData.swift in Sources */,
+				0B6F0D4F2AE939F3007378D4 /* PlaceView.swift in Sources */,
+				0B24A8022B1209910086A65B /* ActionButtons.swift in Sources */,
+				0B5CC3232AD967B100EB2FAE /* MKCoordinate+Extensions.swift in Sources */,
+				0B6F0D532AEA87A2007378D4 /* SearchOptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +348,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = PGWZGKLA6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NearME requires your location to work.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +378,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NearMe/Preview Content\"";
+				DEVELOPMENT_TEAM = PGWZGKLA6S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NearME requires your location to work.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

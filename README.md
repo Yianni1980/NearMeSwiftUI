@@ -1,0 +1,1 @@
+This is an an SwiftUI application in order to demonstrate the new capabilities that apple has brought to the MapKit framework for SwiftUI. The app has an educational character that show us how we can search for some points of iterests in the apple maps and use some advanced features of the build in Maps like directions,lookAround etc.
